@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #7B2A3B;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    flex: 1;  /* Pushes footer to bottom */
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.course-container {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+.course-content {
+    width: 70%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-info {
+    width: 30%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #7B2A3B;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.tabs button {
+    background-color: #F28C8C;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.active-tab {
+    background-color: #7B2A3B;
+}
+
+.content-section {
+    margin-top: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #7B2A3B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F28C8C;
+}
+
+.take-quiz-btn {
+    background-color: #7B2A3B;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.back-btn {
+    background-color: #F28C8C;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #7B2A3B;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}

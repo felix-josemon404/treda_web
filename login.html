@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treda - Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/nav_bar.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Treda</div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#courses">Courses</a>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="login">Login</a>
+                <a href="#" class="register">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="login-container">
+        <h2>Welcome back</h2>
+        <p>Enter your email and password to sign in to your account</p>
+
+        <div class="login-toggle">
+            <button id="userLoginBtn">User Login</button>
+            <button id="adminLoginBtn" class="active">Admin Login</button>
+        </div>
+
+        <!-- Description Text That Will Change Dynamically -->
+        <p id="login-description">Login as an administrator to manage courses, feedback, and users.</p>
+
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="name@example.com" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="••••••••" required>
+
+            <button type="submit" id="loginButton" class="login-btn">Sign In as Admin</button>
+
+            <div class="or-divider">OR CONTINUE WITH</div>
+
+            <button class="google-btn">Continue with Google</button>
+        </form>
+
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

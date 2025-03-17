@@ -1,0 +1,58 @@
+header {
+    background: #ffffff;
+    padding: 20px 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #800000;  /* Maroon */
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #800000; /* Maroon on hover for all navbar links */
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 24px;
+    border-radius: 6px;
+}
+
+.login {
+    color: #800000;
+    border: 2px solid #800000;
+}
+
+.register {
+    background: #800000;
+    color: #fff;
+}
+
+/* Navbar - Leave Feedback Link (No Box Effect) */
+nav a[href="feedback.html"] {
+    color: #800000;  /* Maroon for consistency */
+    font-weight: 500; /* Same weight as other links */
+    text-decoration: none; /* No box effect */
+    padding: 0; /* Removed box effect */
+    transition: color 0.3s ease;
+}
+
+nav a[href="feedback.html"]:hover {
+    color: #a83250; /* Darker maroon for hover effect */
+}

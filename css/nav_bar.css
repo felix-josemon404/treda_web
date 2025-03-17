@@ -1,0 +1,46 @@
+header {
+    background: #ffffff;
+    width: 100%; /* Full width */
+    padding: 20px 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensures full-width content */
+    max-width: 1200px; /* Optional: Prevents excessive stretching on very large screens */
+    margin: 0 auto; /* Centers navbar content */
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #800000; /* Maroon */
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 24px;
+    border-radius: 6px;
+}
+
+.login {
+    color: #800000;
+    border: 2px solid #800000;
+}
+
+.register {
+    background: #800000;
+    color: #fff;
+}

@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #4d0a0a;
+}
+
+header {
+    background: #ffffff;
+    padding: 20px 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #800000;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #800000;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 24px;
+    border-radius: 6px;
+}
+
+.login {
+    color: #800000;
+    border: 2px solid #800000;
+}
+
+.dashboard {
+    padding: 40px 60px;
+}
+
+.dashboard h1 {
+    color: #800000;
+    margin-bottom: 30px;
+}
+
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border: 3px solid #800000;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: #800000;
+    font-weight: bold;
+}
+
+.content-section {
+    display: flex;
+    gap: 30px;
+}
+
+.course-management,
+.recent-feedback {
+    width: 48%;
+}
+
+.course-management h2,
+.recent-feedback h2 {
+    color: #800000;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fdf8f8;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.status-right {
+    text-align: right;
+}
+
+.published {
+    color: #008000;
+}
+
+.draft {
+    color: #d9534f;
+}
+
+.edit, .delete {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: #a83232;
+}
+
+.delete {
+    background-color: #d9534f;
+}
+
+.delete:hover {
+    background-color: #c9302c;
+}
+
+/* Recent Feedback Section */
+.feedback-list {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 2px solid #800000;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.feedback-item:last-child {
+    border-bottom: none;
+}
+
+.feedback-item strong {
+    display: block;
+    color: #800000;
+    font-weight: bold;
+}
+
+.rating {
+    color: #ffa500; /* Gold for stars */
+}
+
+.timestamp {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}

@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdf6f5; /* Pinkish background for better contrast */
+}
+
+.login-container {
+    text-align: center;
+    margin-top: 50px;
+    max-width: 450px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures the padding doesn't exceed the container */
+}
+
+.login-toggle {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.login-toggle button {
+    background-color: #faeaea;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #800000;
+}
+
+.login-toggle .active {
+    background-color: #800000;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;  /* Ensures the form spans the full width */
+    box-sizing: border-box; /* Prevents overflow */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #800000;
+}
+
+input {
+    width: 100%;  /* Ensures the input spans full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #800000;
+    border-radius: 6px;
+    background-color: #fff;
+    box-sizing: border-box; /* Ensures perfect alignment */
+}
+
+input:focus {
+    outline: none;
+    border-color: #a83250;
+    box-shadow: 0 0 5px rgba(168, 50, 80, 0.4);
+}
+
+.login-btn {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+    width: 100%; /* Matches the full form width */
+}
+
+.login-btn:hover {
+    background-color: #a83250;
+}
+
+.google-btn {
+    background-color: #faeaea;
+    color: #800000;
+    cursor: pointer;
+    padding: 12px;
+    border: 2px solid #800000;
+    border-radius: 6px;
+    width: 100%; /* Align Google button too */
+}
+
+.or-divider {
+    margin: 15px 0;
+    color: #800000;
+}
+
+a {
+    color: #800000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

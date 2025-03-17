@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Treda</title>
+    <link rel="stylesheet" href="css/admin_dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Treda</div>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="feedback.html">Feedback</a>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="login">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <h1>Admin Dashboard</h1>
+
+        <div class="dashboard-cards">
+            <div class="card">Total Users: 1,250</div>
+            <div class="card">Total Courses: 45</div>
+            <div class="card">Active Feedbacks: 32</div>
+        </div>
+
+        <div class="content-section">
+            <!-- Course Management Section -->
+            <div class="course-management">
+                <h2>Manage Courses</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course Title</th>
+                            <th>Category</th>
+                            <th class="status-right">Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Introduction to CBT</td>
+                            <td>Therapy</td>
+                            <td class="status-right published">Published</td>
+                            <td>
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mindfulness Meditation</td>
+                            <td>Wellness</td>
+                            <td class="status-right draft">Draft</td>
+                            <td>
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Recent Feedback Section -->
+            <div class="recent-feedback">
+                <h2>Recent Feedback</h2>
+                <div class="feedback-list">
+                    <div class="feedback-item">
+                        <strong>John Doe</strong>
+                        <p>"Amazing course! Helped me a lot."</p>
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <span class="timestamp">2 hours ago</span>
+                    </div>
+
+                    <div class="feedback-item">
+                        <strong>Sarah Lee</strong>
+                        <p>"Very informative but could use more examples."</p>
+                        <span class="rating">⭐⭐⭐⭐</span>
+                        <span class="timestamp">Yesterday</span>
+                    </div>
+
+                    <div class="feedback-item">
+                        <strong>Michael Smith</strong>
+                        <p>"Content is outdated. Needs improvement."</p>
+                        <span class="rating">⭐⭐⭐</span>
+                        <span class="timestamp">3 days ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/admin_dashboard.js"></script>
+</body>
+</html>

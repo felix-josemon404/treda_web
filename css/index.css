@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fdf6f5;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #ffffff;
+    padding: 20px 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #800000;  /* Maroon */
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 24px;
+    border-radius: 6px;
+}
+
+.login {
+    color: #800000;
+    border: 2px solid #800000;
+}
+
+.register {
+    background: #800000;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    background: #fae8e8;
+}
+
+.hero-content {
+    max-width: 45%;
+}
+
+.hero-content h1 {
+    font-size: 3.2rem;
+    color: #800000;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.explore-btn {
+    background: #800000;
+    color: #fff;
+    margin-right: 12px;
+}
+
+.signup-btn {
+    background: #ffffff;
+    border: 2px solid #800000;
+    color: #800000;
+}
+
+.hero-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 300px;
+    background: #f7d7d7;
+    border: 3px dashed #800000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: #800000;
+    font-weight: bold;
+}
+
+.featured-courses {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Maintains 3 cards in a row */
+    gap: 25px; /* Slightly wider spacing for balance */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #d4a3a3; /* Light maroonish red */
+    border-radius: 12px;
+    height: 450px; /* Increased height for a more premium look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-card img {
+    width: 100%;
+    height: 280px; /* Taller image to match the new card size */
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.course-card h3 {
+    color: #800020; /* Maroonish Red */
+    font-weight: bold;
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+
+.course-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.view-btn {
+    background-color: #800020;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.view-course {
+    background-color: #800020; /* Maroonish Red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.view-course:hover {
+    background-color: #600015; /* Darker Maroon */
+}
+
+.testimonials {
+    text-align: center;
+    padding: 60px 20px;
+    background: #faeaea;  /* Light pink background to match the hero section */
+}
+
+.testimonials h2 {
+    color: #800000;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.testimonials p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.testimonial-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: #ffffff;
+    border-left: 5px solid #800000;  /* Maroon side border for design consistency */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.testimonial-card p {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial-card h4 {
+    color: #800000;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #ffffff; /* Soft pinkish background */
+    color: #800020; /* Maroon text */
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.footer-section {
+    max-width: 220px;
+}
+
+.footer-logo {
+    color: #800020; /* Maroon text for the logo */
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section h4 {
+    font-weight: 600;
+    color: #800020; /* Maroon for headings */
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #800020; /* Maroon links */
+}
+
+.footer-section ul li a:hover {
+    color: #a83250; /* Darker maroon for hover */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #800020; /* Maroon for subtle details */
+}
